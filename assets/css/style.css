@@ -2042,7 +2042,7 @@ span.right_info {
   <--- Start consalt Hero Area Style Two CSS --->
 ============================================================ */
 section.hero_area.style_two {
-    background: url(../images/home_two/banner_2.png);
+    background: url(../images/home_two/about_shape2.png);
     height: 900px;
 }
 section.hero_area.style_two .hero_content {
@@ -2050,7 +2050,7 @@ section.hero_area.style_two .hero_content {
 }
 .hero_content h4 {
     font-size: 16px;
-    color: #ffffff;
+    color: black;
     font-weight: 500;
     position: relative;
     z-index: 1;
@@ -3270,7 +3270,7 @@ a.active_sticky {
 ============================================================ */
 
 section.hero_area.style_three {
-    background: url(../images/home_3/hero_3_bg.jpg);
+    background: url(../images/home_3/);
     height: 750px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -5446,18 +5446,18 @@ section.footer_area.style_four .footer_widget_icon i {
 }
   
   .consalt-slider-bg {
-    background: url(../images/home-five/banner.png);
+    background: url(../images/home-five/https://img.freepik.com/free-photo/workers-examining-work_1122-970.jpg?ga=GA1.1.1802533643.1735888286&semt=ais_hybrid);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
   }
 
 .consalt-slider-bg2 {
-    background: url(../images/home-five/banner3.png);
+    background: url(../images/home-five/https://img.freepik.com/free-photo/workers-examining-work_1122-970.jpg?ga=GA1.1.1802533643.1735888286&semt=ais_hybrid);
 }
 
 .consalt-slider-bg3 {
-    background: url(../images/home-five/slider2.png);
+    background: url(../images/home-five/https://img.freepik.com/free-photo/workers-examining-work_1122-970.jpg?ga=GA1.1.1802533643.1735888286&semt=ais_hybrid);
   }
 
   .consalt-slider-bg,
@@ -5682,7 +5682,7 @@ section.about_area.style_five {
 .about_play.style_four a.banner-play-btn {
     width: 180px;
     height: 180px;
-    border-radius: 50%;
+    border-radius: 30%;
     background: url(../images/HPLOGO.png);
     line-height: 180px;
 }

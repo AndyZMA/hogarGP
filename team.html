@@ -40,6 +40,17 @@
 	<!-- odometer CSS -->	
 	<link rel="stylesheet" href="assets/css/odometer-theme-default.css" type="text/css" media="all">	
 	<link rel="stylesheet" href="assets/css/scroll-up.css" type="text/css" media="all">	
+
+	<link rel="stylesheet" href="assets/css/header.css">
+
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-..."
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
 	<!-- modernizr js -->
 	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
@@ -68,83 +79,40 @@
 <!--==================================================-->
 <!-- Start Consalt Header Area Style Three-->
 <!--==================================================-->
-<div class="consalt-header-area style_two style_three style_four boxed box_two" id="sticky-header" >
-	<div class="container-fluid">
-		<div class="row align-items-center">
-			<div class="col-lg-2">
-				<div class="header-logo">
-					<a class="active_header" href="index.html"><img src="assets/images/NavLogoHp.png" alt="logo" style="width: 200px;"></a>
-					<a class="active_sticky" href="index.html"><img src="assets/images/NavLogoHp.png" alt="logo" style="width: 200px;"></a>
-				</div>
-			</div>
-			<div class="col-lg-7">
-				<div class="header-menu">
-					<ul class="nav_scroll">
-						<li><a href="index-4.html">Inicio <span><i class="fas fa-angle-down"></i></span></a>
-							<!-- <ul class="sub_menu">
-								<li><a href="index.html">Home Version 01</a></li>
-								<li><a href="index-2.html">Home Version 02</a></li>
-								<li><a href="index-3.html">Home Version 03</a></li>
-								<li><a href="index-4.html">Home Version 04</a></li>
-								<li><a href="index-5.html">Home Version 05</a></li>
-								<li><a href="index-6.html">Home Version 06</a></li>
-							</ul> -->
-						</li>
-						<!-- <li><a href="#">Aviso de Privacidad</a></li> -->
-						<li><a href="#">Servicios <span><i class="fas fa-angle-down"></i></span></a>
-							<!-- <ul class="sub_menu">
-								<li><a href="service.html">Our Service</a></li>
-								<li><a href="service-details.html">Service Details</a></li>
-							</ul> -->
-						</li>
-						<li><a href="team.html">Capital Humano <span><i class="fas fa-angle-down"></i></span></a>
-
-						<!-- <li><a href="#">Page <span><i class="fas fa-angle-down"></i></span></a>
-							<ul class="sub_menu">
-								<li><a href="about.html">About Us</a></li>
-								<li><a href="service.html">Our Service</a></li>
-								<li><a href="service-details.html">Service Details</a></li>
-								<li><a href="team.html">Our Team</a></li>
-								<li><a href="pricing.html">Pricing</a></li>								
-								<li><a href="portfolio.html">Portfolio</a></li>
-								<li><a href="protfolio-details.html">Portfolio Details</a></li>
-								<li><a href="404.html">Error Page</a></li>
-								<li><a href="contact.html">Contact</a></li>
-							</ul>
-						</li> -->
-						<li><a href="#">Proyectos <span><i class="fas fa-angle-down"></i></span></a>
-							<!-- <ul class="sub_menu">
-								<li><a href="portfolio.html">Portfolio</a></li>
-								<li><a href="protfolio-details.html">Portfolio Details</a></li>
-							</ul> -->
-						</li>
-						<li><a href="blog-grid.html">Centro de Noticias <span><i class="fas fa-angle-down"></i></span></a>
-							<!-- <ul class="sub_menu">
-								<li><a href="blog-grid.html">Blog</a></li>
-								<li><a href="blog-details.html">Blog Details</a></li>
-							</ul> -->
-						</li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-					
-				</div>
-			</div>
-			<!-- <div class="col-lg-3">	
-				<div class="consalt_header-right">
-					<div class="search-containers">
-						<form action="#">
-						  <input type="text" placeholder="Search.." name="search">
-						  <button type="submit"><i class="fa fa-search"></i></button>
-						</form>
-					  </div>
-					<div class="sidebar-btn">
-						<div class="nav-btn navSidebar-button"><span><i class="bi bi-filter-left"></i></span></div>							
-					</div>
-				</div>
-			</div> -->
-		</div>
-	</div>
-</div>
+<header>
+	<!-- NAVBAR -->
+	<nav class="navbar">
+	  <!-- Logo -->
+	  <div class="navbar-logo">
+		<a href="index.html">
+		  <!-- Ajusta la ruta de tu imagen -->
+		  <img src="assets/images/NavLogoHp.png" alt="Logo" />
+		</a>
+	  </div>
+  
+	  <!-- Ícono hamburguesa (solo visible en móviles) -->
+	  <div class="navbar-toggle" id="mobile-menu">
+		<i class="fas fa-bars"></i>
+	  </div>
+  
+	  <!-- Enlaces de navegación -->
+	  <ul class="navbar-menu" id="navbar-menu">
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="team.html">Capital Humano</a></li>
+		<li><a href="#">Proyectos</a></li>
+		<li><a href="blog-grid.html">Centro de Noticias</a></li>
+		<li><a href="contact.html">Contacto</a></li>
+	  </ul>
+	</nav>
+  
+	<!-- SECCIÓN BANNER -->
+	<section class="banner-section">
+	  <div class="banner-content">
+		<h1>Nuestro Equipo</h1>
+		<p>Descubre lo que tenemos para ofrecerte y explora nuestros proyectos y servicios.</p>
+	  </div>
+	</section>
+  </header>
 <!--==================================================-->
 <!-- End Consalt Header Area -->
 <!--==================================================-->
@@ -207,88 +175,12 @@
 
 
 <!-- Sidebar Cart Item -->
-<div class="xs-sidebar-group info-group">
-	<div class="xs-overlay xs-bg-black"></div>
-	<div class="xs-sidebar-widget">
-		<div class="sidebar-widget-container">
-			<div class="widget-heading">
-				<a href="#" class="close-side-widget">
-					<i class="far fa-times-circle"></i>
-				</a>
-			</div>
-			<div class="sidebar-textwidget">
-				<!-- Sidebar Info Content -->
-				<div class="sidebar-info-contents">
-					<div class="content-inner">
-						<div class="nav-logo">
-							<a href="index.html"><img src="assets/images/logo.png" alt="sid img" ></a>
-						</div>
-						<div class="row padding-two">
-							<div class="col-lg-6">
-								<div class="content-thumb-box">
-									<img src="assets/images/home_one/team.jpg" alt="">
-								</div>
-							</div>
-							<div class="col-lg-6 ">
-								<div class="content-thumb-box">
-									<img src="assets/images/home_one/team1.jpg" alt="">
-								</div>
-							</div>
-							<div class="col-lg-6 ">
-								<div class="content-thumb-box">
-									<img src="assets/images/home_one/team2.jpg" alt="">
-								</div>
-							</div>
-							<div class="col-lg-6 ">
-								<div class="content-thumb-box">
-									<img src="assets/images/home_one/team.jpg" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="contact-info">
-							<h2>Contact Info</h2>
-							<ul class="list-style-one">
-								<li><i class="bi bi-envelope"></i>Chicago 12, Melborne City, USA</li>
-								<li><i class="bi bi-envelope"></i>(+001) 123-456-7890</li>
-								<li><i class="bi bi-envelope"></i>Example.com</li>
-								<li><i class="bi bi-envelope"></i>Week Days: 09.00 to 18.00 Sunday: Closed</li>
-							</ul>
-						</div>
-						<!-- Social Box -->
-						<ul class="social-box">
-							<li class="facebook"><a href="#" class="fab fa-facebook-f"></a></li>
-							<li class="twitter"><a href="#" class="fab fa-instagram"></a></li>
-							<li class="linkedin"><a href="#" class="fab fa-twitter"></a></li>
-							<li class="instagram"><a href="#" class="fab fa-pinterest-p"></a></li>
-							<li class="youtube"><a href="#" class="fab fa-linkedin-in"></a></li>
-						</ul>
-					</div>
-				</div>		
-			</div>
-		</div>
-	</div>
-</div>
+
 
 <!--==================================================-->
 <!-- Start Consalt Breadcumb Area -->
 <!--==================================================-->
-<div class="breadcumb-area d-flex">
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-lg-12 text-center">
-				<div class="breadcumb-content">
-					<div class="breadcumb-title">
-						<h4>Nuestro equipo</h4>
-					</div>
-					<ul>
-						<li><a href="index.html"><i class="bi bi-house-door-fill"></i> Inicio </a></li>
-						<li class="rotates"><i class="bi bi-slash-lg"></i>Capital Humano</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
+
 <!--==================================================-->
 <!-- End Consalt Breadcumb Area -->
 <!--==================================================-->
@@ -632,6 +524,9 @@
 	<script src="assets/js/theme.js"></script>
 	<!-- barfiller -->
 	<script src="assets/js/jquery.barfiller.js"></script>
+
+ 	<script src="assets/js/header.js"></script>
+
 
 </body>
 </html>
