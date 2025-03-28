@@ -5683,9 +5683,14 @@ section.about_area.style_five {
     width: 180px;
     height: 180px;
     border-radius: 30%;
-    background: url(../images/HPLOGO.png);
-    line-height: 180px;
+    background-image: url(../images/hogar12[1].png);
+    background-size: contain; /* ajusta la imagen completa sin recortar */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black; /* puedes ajustar esto según el fondo deseado */
+    display: block;
 }
+ 
 .about_play.style_two .text-inner svg {
     width: 76%;
 }
